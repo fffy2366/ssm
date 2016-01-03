@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/build/classes/main" />
     <output-test url="file://$MODULE_DIR$/build/classes/test" />
-    <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
@@ -11,24 +10,26 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: mysql:mysql-connector-java:5.1.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.code.gson:gson:2.5" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.mybatis:mybatis:3.2.8" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.mybatis:mybatis-spring:1.2.2" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: mysql:mysql-connector-java:5.1.6" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.google.code.gson:gson:2.5" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: com.alibaba:fastjson:1.2.7" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Gradle: com.alibaba:fastjson:1.2.7" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.webjars:bootstrap:3.3.4" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.webjars:font-awesome:4.3.0-1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.webjars:html5shiv:3.7.2" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.webjars:respond:1.4.2" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: com.h2database:h2:1.4.187" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: commons-dbcp:commons-dbcp:1.4" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: com.alibaba:fastjson:1.2.7" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.webjars:jquery:1.11.1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: commons-pool:commons-pool:1.5.4" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
