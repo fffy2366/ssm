@@ -1,4 +1,5 @@
-package com.fxt.test ;
+package com.fxt.test;
+
 import com.alibaba.fastjson.JSON;
 import com.fxt.pojo.User;
 import com.fxt.dao.UserMapper;
@@ -14,7 +15,7 @@ import javax.annotation.Resource;
 @ContextConfiguration(locations = {"classpath:spring-mybatis.xml"})  
   
 public class TestMyBatis {  
-    private static Logger logger = Logger.getLogger(TestMyBatis.class);  
+    private static Logger logger = Logger.getLogger(TestMyBatis.class);
 //  private ApplicationContext ac = null;  
     @Resource  
     private UserMapper userService = null;
@@ -28,8 +29,8 @@ public class TestMyBatis {
     @Test
     public void test1() {  
         User user = userService.selectByPrimaryKey(1);
-        // System.out.println(user.getUserName());  
+         //System.out.println(user.getUserName());
         // logger.info("值："+user.getUserName());  
-        logger.info(JSON.toJSONString(user));  
+        logger.info(JSON.toJSONString(user));
     }  
 }  
