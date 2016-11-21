@@ -13,3 +13,13 @@
 **/target
 
 **/build
+/bin/
+
+
+.classpath
+
+.project
+
+.settings/
+
+WebContent/

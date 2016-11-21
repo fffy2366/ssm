@@ -6,6 +6,7 @@ import com.fxt.dao.UserMapper;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -17,8 +18,8 @@ import javax.annotation.Resource;
 public class TestMyBatis {  
     private static Logger logger = Logger.getLogger(TestMyBatis.class);
 //  private ApplicationContext ac = null;  
-    @Resource  
-    private UserMapper userService = null;
+    @Autowired  
+    private UserMapper userService;
   
 //  @Before  
 //  public void before() {  
@@ -31,6 +32,6 @@ public class TestMyBatis {
         User user = userService.selectByPrimaryKey(1);
          //System.out.println(user.getUserName());
         // logger.info("值："+user.getUserName());  
-        logger.info(JSON.toJSONString(user));
+        System.out.println(JSON.toJSONString(user));
     }  
 }  
